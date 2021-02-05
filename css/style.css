@@ -10,3 +10,9 @@ body{
     color: #212F3D;
 }
 
+@media (max-width: 600px) {
+    img {
+        max-width: 100%;
+    }
+}
+
