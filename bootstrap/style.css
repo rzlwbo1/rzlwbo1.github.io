@@ -43,8 +43,7 @@ nav .nav-items {
   margin-top: 17px;
   padding: 0;
   width: 80%;
-  visibility: visible;
-  display: block;
+  display: none;
 }
 
 nav .nav-items li {
@@ -62,5 +61,14 @@ nav .nav-items li a {
 
 nav .menu, nav .close {
   cursor: pointer;
+  display: none;
+}
+
+nav .menu.active {
+  display: block;
+}
+
+nav .close.active {
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */
