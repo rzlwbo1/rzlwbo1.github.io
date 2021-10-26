@@ -35,9 +35,12 @@ nav {
   }
 
   .nav-items {
+    background-color: #3A3253;
     margin-top: 17px;
     padding: 0;
     width: 80%;
+    visibility: visible;
+    display: block;
 
     li {
       list-style: none;
@@ -52,6 +55,7 @@ nav {
       }
     }
   }
+
 
   .menu, .close {
     cursor: pointer;
