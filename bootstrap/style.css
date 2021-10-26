@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400&display=swap");
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  width: 100%;
+  background-color: #3A3253;
+  padding-bottom: 5px;
+  height: auto;
+}
+
+nav .my-navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 50px;
+}
+
+nav .brand-name {
+  display: inline-block;
+  padding: 3px 6px;
+  font-size: 17px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  background-color: #403368;
+  border-radius: 0px 6px;
+  letter-spacing: .2rem;
+  color: #F4F4F5;
+  text-decoration: none;
+  -webkit-transition: color 200ms;
+  transition: color 200ms;
+}
+
+nav .nav-items {
+  margin-top: 17px;
+  padding: 0;
+  width: 80%;
+}
+
+nav .nav-items li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+nav .nav-items li a {
+  display: block;
+  color: #F4F4F5;
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+nav .menu, nav .close {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
