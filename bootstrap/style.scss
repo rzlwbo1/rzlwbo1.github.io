@@ -22,7 +22,7 @@ nav {
     min-height: 50px;
   }
 
-  .brand-name {
+  a.brand-name {
     display: inline-block;
     padding: 3px 6px;
     font-size: 17px;
@@ -33,7 +33,13 @@ nav {
     letter-spacing: .2rem;
     color: $light;
     text-decoration: none;
-    transition: color 200ms;
+    transition: color 300ms;
+    
+    &:hover {
+      color: #403368;
+      background-color: $light;
+      transition: color 300ms;
+    }
   }
 
   .nav-items {
@@ -114,6 +120,53 @@ nav {
   
   
 }
+
+.my-parallax {
+  height: 218px;
+  background-image: url("../assets/images/paralax.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.219);
+  }
+
+  p {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 0 6px 50px #2A2145;
+    letter-spacing: 1px;
+    font-family: 'Source Sans pro', sans-serif;
+  }
+}
+
+.me-main {
+  margin-top: 100px;
+
+  img {
+    display: block;
+    width: 179px;
+    margin-left: 100px;
+  }
+
+  p {
+    line-height: 1.8rem;
+  }
+}
+
 
 
 @keyframes dribble {
