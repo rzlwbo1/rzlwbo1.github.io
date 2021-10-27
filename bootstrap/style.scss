@@ -5,6 +5,8 @@ $light: #F4F4F5;
 
 body {
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 nav {
@@ -69,4 +71,59 @@ nav {
     display: block;
   }
 
+}
+
+
+.my-hero {
+  height: calc(100vh - 50px);
+  border: 1px solid transparent;
+
+  .content-hero {
+    // transform: translateY(50%);
+    margin-top: 50%;
+    min-height: 300px;
+    text-align: center;
+  }
+  
+  h5 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  h1 {
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  p {
+    font-weight: 400;
+  }
+
+  .icon-mouse {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    bottom: 50px;
+    left: 45%;
+    text-align: center;
+    animation-name: dribble;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+  }
+  
+  
+}
+
+
+@keyframes dribble {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
