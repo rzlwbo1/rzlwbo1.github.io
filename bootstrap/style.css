@@ -5,6 +5,10 @@ body {
   scroll-behavior: smooth;
 }
 
+.border-cus {
+  border: 1px solid green;
+}
+
 nav {
   width: 100%;
   background-color: #3A3253;
@@ -83,11 +87,11 @@ nav .close.active {
 
 .my-hero {
   height: calc(100vh - 50px);
-  border: 1px solid transparent;
 }
 
 .my-hero .content-hero {
-  margin-top: 50%;
+  -webkit-transform: translateY(60%);
+          transform: translateY(60%);
   min-height: 300px;
   text-align: center;
 }
@@ -156,17 +160,45 @@ nav .close.active {
 }
 
 .me-main {
-  margin-top: 100px;
+  margin: 100px auto;
 }
 
 .me-main img {
-  display: block;
-  width: 179px;
-  margin-left: 100px;
+  padding-left: 18%;
 }
 
 .me-main p {
+  margin-top: 24px;
   line-height: 1.8rem;
+}
+
+.my-services h2 {
+  font-size: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.my-services .bg-info {
+  padding: 24px 14px;
+  text-align: center;
+  border-radius: 11px;
+}
+
+.my-services .bg-info img {
+  margin-bottom: 24px;
+}
+
+.my-services .bg-info h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.my-services .bg-info p {
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.2px;
 }
 
 @-webkit-keyframes dribble {
