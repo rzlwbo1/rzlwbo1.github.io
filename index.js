@@ -21,3 +21,9 @@ $(document).ready(function(){
 });
 
 console.log(menus.children[0].classList.contains('active'));
+
+
+/// tooltips
+
+var exampleEl = document.getElementById('example')
+var tooltip = new bootstrap.Tooltip(exampleEl, options)

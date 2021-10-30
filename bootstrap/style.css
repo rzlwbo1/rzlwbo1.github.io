@@ -235,6 +235,33 @@ nav .close.active {
   padding-right: 25px;
 }
 
+.my-skills {
+  margin-top: 100px;
+  background-color: #413662;
+  padding: 50px 21px;
+}
+
+.my-skills h2 {
+  font-size: 27px;
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+}
+
+.my-skills .skills {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[3];
+      grid-template-columns: repeat(3, auto);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  row-gap: 60px;
+  text-align: center;
+  margin-top: 50px;
+}
+
 @-webkit-keyframes dribble {
   0% {
     -webkit-transform: translateY(0);
