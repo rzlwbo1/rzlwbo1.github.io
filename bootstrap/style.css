@@ -262,6 +262,37 @@ nav .close.active {
   margin-top: 50px;
 }
 
+footer {
+  background-color: #E5E5E5;
+}
+
+footer h2 {
+  padding-top: 55px;
+  font-family: 'Source Sans pro',sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+footer .social-media {
+  margin-top: 20px;
+  margin-bottom: 27px;
+}
+
+footer .license li a {
+  color: rgba(55, 110, 200, 0.56) !important;
+  display: inline-block;
+}
+
+footer .license li a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  margin-top: 34px;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+}
+
 @-webkit-keyframes dribble {
   0% {
     -webkit-transform: translateY(0);

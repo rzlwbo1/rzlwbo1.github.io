@@ -259,10 +259,43 @@ nav {
     text-align: center;
     margin-top: 50px;
 
-    img {
+  }
+
+}
+
+footer {
+  background-color: #E5E5E5;
+  
+  h2 {
+    padding-top: 55px;
+    font-family: 'Source Sans pro',sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  .social-media {
+    margin-top: 20px;
+    margin-bottom: 27px;
+  }
+
+  .license {
+    li {
+      a {
+        color: rgba(55, 110, 200, 0.56) !important;
+        display: inline-block;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
   }
 
+  p {
+    margin-top: 34px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+  }
 }
 
 @keyframes dribble {
