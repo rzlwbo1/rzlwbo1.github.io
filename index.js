@@ -1,3 +1,19 @@
+
+/// Check width browser
+let lebarBrowser = document.body.clientWidth;
+if(lebarBrowser > 575.98) {
+  Swal.fire({
+    title: 'Perhatian!',
+    text: 'Versi Desktop / layar Komuter belum maksimal',
+    icon: 'warning',
+    showConfirmButton: false,
+    allowOutsideClick: false
+  })
+}
+console.log(lebar);
+
+
+
 const menus = document.querySelector(".menus");
 const navExpand = document.querySelector(".nav-items");
 
@@ -15,7 +31,7 @@ $(document).ready(function(){
       menus.children[0].classList.add('active')
       menus.children[1].classList.remove('active')
     }
-    $(".nav-items").slideToggle('slow');
+    $(".nav-items").slideToggle(400);
   })
 
 });
