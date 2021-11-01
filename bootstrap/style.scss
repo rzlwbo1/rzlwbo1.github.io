@@ -85,23 +85,23 @@ nav {
 
 
 .my-hero {
-  height: calc(100vh - 50px);
+  height: calc(100vh - 3.125rem);
   // border: 1px solid transparent;
 
   .content-hero {
-    transform: translateY(60%);
+    transform: translateY(50%);
     // margin-top: 50%;
     min-height: 300px;
     text-align: center;
   }
   
   h5 {
-    font-size: 25px;
+    font-size: 1.563rem;
     font-weight: 600;
   }
 
   h1 {
-    font-size: 35px;
+    font-size: 2.188rem;
     font-weight: 600;
   }
 
