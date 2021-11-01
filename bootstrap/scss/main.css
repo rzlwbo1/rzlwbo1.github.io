@@ -6632,7 +6632,7 @@ fieldset:disabled .btn {
 .bs-tooltip-top .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^="top"] .tooltip-arrow::before {
   top: -1px;
   border-width: 0.4rem 0.4rem 0;
-  border-top-color: #000;
+  border-top-color: #616161;
 }
 
 .bs-tooltip-end, .bs-tooltip-auto[data-popper-placement^="right"] {
@@ -6648,7 +6648,7 @@ fieldset:disabled .btn {
 .bs-tooltip-end .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^="right"] .tooltip-arrow::before {
   right: -1px;
   border-width: 0.4rem 0.4rem 0.4rem 0;
-  border-right-color: #000;
+  border-right-color: #616161;
 }
 
 .bs-tooltip-bottom, .bs-tooltip-auto[data-popper-placement^="bottom"] {
@@ -6662,7 +6662,7 @@ fieldset:disabled .btn {
 .bs-tooltip-bottom .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^="bottom"] .tooltip-arrow::before {
   bottom: -1px;
   border-width: 0 0.4rem 0.4rem;
-  border-bottom-color: #000;
+  border-bottom-color: #616161;
 }
 
 .bs-tooltip-start, .bs-tooltip-auto[data-popper-placement^="left"] {
@@ -6678,7 +6678,7 @@ fieldset:disabled .btn {
 .bs-tooltip-start .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^="left"] .tooltip-arrow::before {
   left: -1px;
   border-width: 0.4rem 0 0.4rem 0.4rem;
-  border-left-color: #000;
+  border-left-color: #616161;
 }
 
 .tooltip-inner {
@@ -6686,7 +6686,7 @@ fieldset:disabled .btn {
   padding: 0.25rem 0.5rem;
   color: #fff;
   text-align: center;
-  background-color: #000;
+  background-color: #616161;
   border-radius: 0.5rem;
 }
 

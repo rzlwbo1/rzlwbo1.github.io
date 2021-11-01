@@ -25,5 +25,8 @@ console.log(menus.children[0].classList.contains('active'));
 
 /// tooltips
 
-var exampleEl = document.getElementById('example')
-var tooltip = new bootstrap.Tooltip(exampleEl, options)
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
