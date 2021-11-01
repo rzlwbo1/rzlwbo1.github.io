@@ -10,7 +10,6 @@ if(lebarBrowser > 575.98) {
     allowOutsideClick: false
   })
 }
-console.log(lebar);
 
 
 
