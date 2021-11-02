@@ -141,7 +141,7 @@ nav .close.active {
   content: "";
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.219);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .my-parallax p {
@@ -152,10 +152,9 @@ nav .close.active {
   z-index: 2;
   text-align: center;
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 700;
   color: #fff;
-  text-shadow: 0 6px 50px #2A2145;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-family: 'Source Sans pro', sans-serif;
 }
 
@@ -209,7 +208,7 @@ nav .close.active {
 }
 
 .my-projects p {
-  color: #C5B0F0;
+  color: #dbcaff;
   font-size: 16px;
   margin-top: 1rem;
 }
@@ -325,6 +324,21 @@ footer p {
   100% {
     -webkit-transform: translateY(0);
             transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .my-parallax {
+    height: 13.625rem;
+    background-image: url("../assets/images/paralax.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  .my-parallax p {
+    text-shadow: 0 6px 50px #2A2145;
   }
 }
 /*# sourceMappingURL=style.css.map */
