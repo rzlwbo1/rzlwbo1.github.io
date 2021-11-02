@@ -45,3 +45,10 @@ var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggl
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
   return new bootstrap.Tooltip(tooltipTriggerEl)
 })
+
+
+
+/// Tahun
+const dateNow = new Date();
+const year = dateNow.getFullYear();
+document.querySelector(".tahun").innerHTML = year;
