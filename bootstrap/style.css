@@ -61,7 +61,7 @@ nav .nav-items {
 
 nav .nav-items li {
   list-style: none;
-  margin-bottom: 12px;
+  margin-bottom: 18px;
 }
 
 nav .nav-items li a {
@@ -90,8 +90,8 @@ nav .close.active {
 }
 
 .my-hero .content-hero {
-  -webkit-transform: translateY(50%);
-          transform: translateY(50%);
+  -webkit-transform: translateY(40%);
+          transform: translateY(40%);
   min-height: 300px;
   text-align: center;
 }
@@ -127,12 +127,12 @@ nav .close.active {
 }
 
 .my-parallax {
-  height: 218px;
+  height: 13.625rem;
   background-image: url("../assets/images/paralax.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   position: relative;
 }
 
@@ -276,6 +276,11 @@ footer h2 {
 footer .social-media {
   margin-top: 20px;
   margin-bottom: 27px;
+}
+
+footer .social-media img {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
 }
 
 footer .license li a {

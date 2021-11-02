@@ -55,7 +55,7 @@ nav {
 
     li {
       list-style: none;
-      margin-bottom: 12px;
+      margin-bottom: 18px;
 
       a {
         display: block;
@@ -89,7 +89,7 @@ nav {
   // border: 1px solid transparent;
 
   .content-hero {
-    transform: translateY(50%);
+    transform: translateY(40%);
     // margin-top: 50%;
     min-height: 300px;
     text-align: center;
@@ -126,12 +126,12 @@ nav {
 }
 
 .my-parallax {
-  height: 218px;
+  height: 13.625rem;
   background-image: url("../assets/images/paralax.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   position: relative;
 
   &::before {
@@ -276,6 +276,10 @@ footer {
   .social-media {
     margin-top: 20px;
     margin-bottom: 27px;
+
+    img {
+      transform: scale(0.8);
+    }
   }
 
   .license {
