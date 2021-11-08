@@ -1,15 +1,15 @@
 
 /// Check width browser
-let lebarBrowser = document.body.clientWidth;
-if(lebarBrowser > 575.98) {
-  Swal.fire({
-    title: 'Perhatian!',
-    text: 'Versi Desktop / layar Komuter belum maksimal silahkan buka di Smartphone kalian',
-    icon: 'warning',
-    showConfirmButton: false,
-    allowOutsideClick: false
-  })
-}
+// let lebarBrowser = document.body.clientWidth;
+// if(lebarBrowser > 575.98) {
+//   Swal.fire({
+//     title: 'Perhatian!',
+//     text: 'Versi Desktop / layar Komuter belum maksimal silahkan buka di Smartphone kalian',
+//     icon: 'warning',
+//     showConfirmButton: false,
+//     allowOutsideClick: false
+//   })
+// }
 
 
 

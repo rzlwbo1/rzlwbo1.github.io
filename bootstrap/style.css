@@ -341,4 +341,9 @@ footer p {
     text-shadow: 0 6px 50px #2A2145;
   }
 }
-/*# sourceMappingURL=style.css.map */
+
+@media screen and (min-width: 576px) {
+  .my-hero .icon-mouse {
+    left: 49%;
+  }
+}
