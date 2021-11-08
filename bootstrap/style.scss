@@ -337,3 +337,20 @@ footer {
     left: 49%;
   }
 }
+
+@media screen and (min-width: 768px) {
+
+  nav .menus {
+    display: none;
+  }
+
+  nav .nav-items {
+    width: initial;
+
+    li {
+      margin: 0 0.8rem;
+    }
+  }
+  
+    
+}
