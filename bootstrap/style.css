@@ -362,10 +362,40 @@ footer p {
     font-size: 1.1rem;
     line-height: 2.1rem;
   }
+  .me-main img {
+    padding-left: 10%;
+  }
   .my-services h2 {
     font-size: 28px;
   }
   .my-projects h2 {
     font-size: 28px;
+  }
+  .my-skills .skills {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (60px)[3];
+        grid-template-columns: repeat(3, 60px);
+    -ms-grid-rows: (1fr)[2];
+        grid-template-rows: repeat(2, 1fr);
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .my-skills .skills img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  footer p {
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  footer ul p {
+    font-size: 16px;
+  }
+  footer .social-media img {
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }

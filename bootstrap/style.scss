@@ -314,7 +314,7 @@ footer {
   }
 }
 
-
+// phone
 @media screen and (max-width: 575.98px){
   .my-parallax {
     height: 13.625rem;
@@ -331,13 +331,14 @@ footer {
   }
 }
 
-
+// Landsacep
 @media screen and (min-width: 576px) { 
   .my-hero .icon-mouse {
     left: 49%;
   }
 }
 
+// Tablets
 @media screen and (min-width: 768px) {
 
   nav .menus {
@@ -357,12 +358,42 @@ footer {
     line-height: 2.1rem;
   }
 
+  .me-main img {
+    padding-left: 10%;
+  }
+
   .my-services h2 {
     font-size: 28px;
   }
 
   .my-projects h2 {
     font-size: 28px;
+  }
+
+  .my-skills .skills {
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: space-around;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  footer p {
+    margin-top: 30px;
+    font-size: 18px;
+  }
+
+  footer ul p {
+    font-size: 16px;
+  }
+
+  footer .social-media img {
+    transform: scale(1);
   }
   
     
