@@ -57,12 +57,18 @@ nav {
       list-style: none;
       margin-bottom: 18px;
 
+      &:hover a {
+        letter-spacing: 4px;
+        transition: all 300ms;
+      }
+
       a {
         display: block;
         color: $light;
         text-decoration: none;
         font-size: 16px;
         letter-spacing: 1px;
+        transition: all 300ms;
       }
     }
   }
@@ -207,8 +213,8 @@ nav {
 
 
 .my-projects {
+  margin-top: 100px;
   h2 {
-    margin-top: 100px;
     font-size: 25px;
     font-weight: 700;
     font-family: 'Source Sans pro', sans-serif;
@@ -397,4 +403,102 @@ footer {
   }
   
     
+}
+
+
+@media screen and (min-width: 992px) {
+
+  nav .container-fluid {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .my-hero {
+    .content-hero {
+      transform: translateY(35%);
+    }
+    h5 {
+      font-size: 2.2rem;
+    }
+
+    h1 {
+      font-size: 3.3rem;
+    }
+
+    p {
+      font-size: 1.3rem;
+    }
+  }
+
+  .my-parallax {
+    height: 18.75rem;
+
+    p {
+      font-size: 2.813rem;
+    }
+  }
+
+  .me-main {
+    margin: 200px auto;
+  }
+
+
+  .me-main img {
+    padding-left: 5%;
+    transform: scale(1.3);
+  }
+
+  .me-main p {
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    margin-top: 3rem;
+    padding-left: 6rem !important;
+    padding-right: 6rem !important;
+  }
+
+  .my-services {
+    margin-top: 200px auto;
+  }
+
+  .my-services h2 {
+    font-size: 2.2rem;
+  }
+
+  .my-projects {
+    margin: 200px 0;
+  }
+
+  .my-projects h2 {
+    font-size: 2.2rem;
+  }
+
+  .my-projects p {
+    color: #dbcaff;
+    font-size: 18px;
+    margin-top: 1rem;
+  }
+
+  .my-skills {
+    padding: 100px 50px;
+  }
+
+  .my-skills .skills {
+    grid-template-rows: auto;
+    grid-template-columns: repeat(6, auto);
+  }
+
+  .my-skills .skills img {
+    width:initial;
+    height:initial;
+    transform: scale(1.2);
+  }
+
+  .my-skills h2 {
+    font-size: 2.2rem;
+  }
+
+  footer h2 {
+    font-size: 2.2rem;
+ }
+
 }

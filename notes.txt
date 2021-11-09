@@ -1,0 +1,8 @@
+Develpment 
+- ubah configurasi sass jadi expanded dan .css
+- atur path css nya
+
+
+Production
+- ubah configurasi sass jadi compressed dan .min.css
+- atur path css nya
