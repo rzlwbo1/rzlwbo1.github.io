@@ -13,6 +13,14 @@
 
 
 
+///// AOS ////
+AOS.init({
+  duration: 500,
+  once: true
+});
+
+
+
 const menus = document.querySelector(".menus");
 const navExpand = document.querySelector(".nav-items");
 

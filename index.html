@@ -4,9 +4,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.9/dist/sweetalert2.min.css">
+
+  <!-- Lbrary and FW CSS -->
+
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.9/dist/sweetalert2.min.css"> -->
   <link rel="stylesheet" href="bootstrap/scss/main.min.css">
   <link rel="stylesheet" href="bootstrap/style.min.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>Muhammad Rizal Wibowo</title>
 </head>
 <body>
@@ -33,9 +38,9 @@
   <div class="my-hero bg-primary">
     <div class="container">
       <div class="content-hero d-flex flex-column justify-content-evenly align-items-center">
-        <h5 class="text-light"><span class="text-secondary">Hello, </span>I'm</h5>
-        <h1 class="text-light">Muhammad Rizal Wibowo</h1>
-        <p class="text-light">Collage Student | Informatics Enginering</p>
+        <h5 class="text-light" data-aos="fade-up" data-aos-delay="200"  data-aos-easing="ease-in-out"><span class="text-secondary" >Hello, </span>I'm</h5>
+        <h1 class="text-light" data-aos="fade-up" data-aos-delay="400" data-aos-easing="ease-in-out">Muhammad Rizal Wibowo</h1>
+        <p class="text-light" data-aos="fade-up" data-aos-delay="700" data-aos-easing="ease-in-out">Collage Student | Informatics Enginering</p>
       </div>
       <a href="#main" class="text-reset icon-mouse">
         <img src="assets/mouse.png" alt="icons mouse" class=" img-fluid">
@@ -44,23 +49,23 @@
   </div>
 
   <div class="my-parallax">
-    <p class="my-auto">ABOUT ME</p>
+    <p class="my-auto" data-aos="about-animate">ABOUT ME</p>
   </div>
 
   <div class="container">
     <section class="me-main" id="main">
-      <div class="profile text-center">
+      <div class="profile text-center" data-aos="fade-up">
         <img src="assets/profile.png" alt="my photo" height="130">
       </div>
-      <p class="p-2 text-primary text-center">
+      <p class="p-2 text-primary text-center" data-aos="zoom-in" data-aos-delay="300" data-aos-easing="ease-in-out">
         Hello fellas! 👋 My name is <span class="text-secondary fw-bold">Muhammad Rizal Wibowo</span> and I live in Bekasi, West Java.  I was passionate about UI Design and  Web Development, with a focus on front-end web developers and basic back end development. Currently, I am pursuing a Bachelor's Degree in Informatics Engineering. 
       </p>
     </section>
 
     <section class="my-services" id="services">
-      <h2 class="text-capitalize text-primary text-center">some things I can do</h2>
+      <h2 class="text-capitalize text-primary text-center" data-aos="fade-up" data-aos-delay="300">some things I can do</h2>
       <div class="services row justify-content-center">
-        <div class="service col-12 col-md-4 mb-3">
+        <div class="service col-12 col-md-4 mb-3" data-aos="zoom-out-up" data-aos-delay="600">
          <div class="bg-info">
           <img src="assets/pentool.svg" alt="pentool icon" class="img-fluid">
           <h3 class="text-white">UI Design Websites</h3>
@@ -68,7 +73,7 @@
          </div>
         </div>
   
-        <div class="service col-12 col-md-4 mb-3">
+        <div class="service col-12 col-md-4 mb-3" data-aos="zoom-out-up" data-aos-delay="900">
           <div class="bg-info">
             <img src="assets/layout.svg" alt="layout icon" class="img-fluid">
             <h3 class="text-white">Convert UI to HTML CSS</h3>
@@ -76,7 +81,7 @@
           </div>
         </div>
   
-        <div class="service col-12 col-md-4">
+        <div class="service col-12 col-md-4" data-aos="zoom-out-up" data-aos-delay="1200">
           <div class="bg-info">
             <img src="assets/code.svg" alt="pentool icon" class="img-fluid">
             <h3 class="text-white">Programming</h3>
@@ -87,10 +92,10 @@
     </section>
 
     <section class="my-projects" id="projects">
-      <h2 class="text-capitalize text-primary text-center">My Projects</h2>
-      <p class="text-center">little projects that I have created</p>
+      <h2 class="text-capitalize text-primary text-center" data-aos="fade-up" data-aos-delay="300">My Projects</h2>
+      <p class="text-center" data-aos="fade-up" data-aos-delay="600">little projects that I have created</p>
 
-      <div class="projects row justify-content-evenly">
+      <div class="projects row justify-content-evenly" data-aos="zoom-in" data-aos-delay="900">
         <div class="col-12 col-md-5 text-center mb-5">
           <div class="project shadow rounded">
             <a href="https://violastore.netlify.app/" class="text-reset">
@@ -140,8 +145,8 @@
 
   <section class="my-skills" id="skills">
     <div class="container">
-      <h2 class="text-capitalize">My Skills & tools</h2>
-      <div class="skills">
+      <h2 class="text-capitalize" data-aos="slide-right">My Skills & tools</h2>
+      <div class="skills" data-aos="zoom-out" data-aos-delay="400">
         <img src="assets/js.png" alt="js" data-bs-toggle="tooltip" data-bs-placement="bottom" title="JavaScript">
         <img src="assets/bs.png" alt="bs" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Bootstrap">
         <img src="assets/html.png" alt="html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="HTML5">
@@ -154,8 +159,8 @@
 
   <footer id="contact">
     <div class="container">
-      <h2 class="text-capitalize text-primary mb-md-4">Find me On</h2>
-      <div class="social-media d-flex align-items-start">
+      <h2 class="text-capitalize text-primary mb-md-4" data-aos="fade-up">Find me On</h2>
+      <div class="social-media d-flex align-items-start"  data-aos="fade-up">
         <a href="https://www.instagram.com/rizalwibowoo/" class="text-reset text-decoration-none">
           <img src="assets/instagram.svg" alt="ig" class="pe-2 pe-md-3 img-fluid">
         </a>
@@ -169,8 +174,8 @@
           <img src="assets/linkedin-logo.svg" alt="linkedin" class="pe-2 pe-md-3 img-fluid">
         </a>
       </div>
-      <p>For business needs please send an email to <a href="mailto:rizalwb2@gmail.com">rizalwb2@gmail.com</a></p>
-      <ul class="nav flex-column text-muted license">
+      <p data-aos="fade-up">For business needs please send an email to <a href="mailto:rizalwb2@gmail.com">rizalwb2@gmail.com</a></p>
+      <ul class="nav flex-column text-muted license"  data-aos="fade-up">
         <p>Attribute License</p>
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="">Devicons</a>
@@ -197,6 +202,7 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.9/dist/sweetalert2.all.min.js"></script>
   <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="index.js"></script>
 </body>
 </html>
